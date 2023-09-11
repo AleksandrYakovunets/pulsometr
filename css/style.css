@@ -1,4 +1,3 @@
-
 * {
     font-family: 'Museo Sans Cyrl', sans-serif
 }
@@ -74,7 +73,8 @@ header {
 }
 
 .header_contact button:hover,
-.promo_main .btn_call:hover {
+.promo_main .btn_call:hover,
+.consultation_form .btn_call:hover {
     background-color: #fff;
     color: #c70101;
 }
@@ -119,7 +119,8 @@ header {
     font-weight: 500;
 }
 
-.promo_main .btn_call {
+.promo_main .btn_call,
+.consultation_form .btn_call {
     width: 300px;
     height: 50px;
     border-radius: 5px;
@@ -195,4 +196,41 @@ header {
 
 .advantages_item_descr a:hover {
     color: #0d0d0d;
+}
+
+.consultation {
+    min-height: 680px;
+    background: url(../img/screen_beratung/bg_screen_third.jpg) center center/cover no-repeat;
+    padding: 100px 0 92px 0;
+}
+
+.consultation_title {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.consultation_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation_form p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 80px;
+    line-height: normal;
+}
+
+.consultation_form input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: 15px;
+    padding-left: 20px;
 }
