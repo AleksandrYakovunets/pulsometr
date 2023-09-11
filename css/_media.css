@@ -1,0 +1,133 @@
+@media(max-width: 991px){
+    .header_contact button:hover,
+    .promo_main .btn_call:hover {
+        background-color: #c70101;
+        color: #fff;
+    }
+    .header_contact a:hover, .link_catalog a:hover{
+        color:#fff;
+    }
+    .advantages_item_descr a:hover{
+        color: #ff0000;
+    }
+
+}
+@media(max-width: 767px) {
+    .header_descr_title {
+        font-size: 10px;
+    }
+
+    .header_descr_subtitle,
+    .header_contact a {
+        font-size: 12px;
+    }
+
+    .header_contact button {
+        width: 140px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .promo_main {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .promo_title {
+        font-size: 24px;
+    }
+
+    .promo_subtitle {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .promo_descr {
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    .promo_descr_item,
+    .promo_descr_item:last-child {
+        margin-right: 0;
+    }
+
+    .promo_main .btn_call {
+        margin-top: 40px;
+        width: 250px;
+        height: 40px;
+    }
+
+    .link_catalog {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .promo {
+        padding-bottom: 30px;
+        min-height: 500px;
+    }
+
+    .advantages {
+        padding: 60px 0 30px 0;
+        min-height: 410px;
+    }
+
+    .advantages_title {
+        font-size: 24px;
+    }
+
+    .advantages_wrapper {
+        margin-top: 40px;
+    }
+
+    .advantages_item img {
+        width: 60px;
+    }
+
+    .advantages_item_title {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .advantages_item_descr {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 575px) {
+
+    header,
+    .advantages_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_contact {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .advantages_item {
+        margin-top: 20px;
+    }
+
+    .promo_title,
+    .advantages_title {
+        font-size: 20px;
+    }
+
+    .promo_subtitle {
+        font-size: 14px;
+    }
+
+    .promo_descr_item_text {
+        font-size: 10px;
+    }
+
+    .advantages_item{
+        width: 225px;
+    }
+}

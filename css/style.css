@@ -1,0 +1,198 @@
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.promo {
+    background: url(../img/screen_first/bg_screen_first.jpg) center center/cover no-repeat;
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    width: 251px;
+}
+
+.header_logo img {
+    width: 100%;
+}
+
+.header_descr {
+    color: #fff;
+    text-align: center;
+}
+
+.header_descr_title {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.header_descr_subtitle {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header_contact {
+    text-align: right;
+}
+
+.header_contact a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.header_contact a:hover,
+.link_catalog a:hover {
+    color: #c70101;
+}
+
+.header_contact button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c70101;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    transition: 0.3s all;
+}
+
+.header_contact button:hover,
+.promo_main .btn_call:hover {
+    background-color: #fff;
+    color: #c70101;
+}
+
+.promo_main {
+    text-align: right;
+    margin-top: 91px;
+    color: #fff;
+}
+
+.promo_title {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promo_subtitle {
+    margin-top: 17px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.promo_descr {
+    margin-top: 66px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.promo_descr_item {
+    text-align: center;
+    margin-right: 70px;
+}
+
+.promo_descr_item:last-child {
+    margin-right: 15px;
+}
+
+.promo_descr_item_text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.promo_main .btn_call {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #c70101;
+    margin-top: 67px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.3s all;
+}
+
+.link_catalog {
+    margin-top: 18px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.link_catalog a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: 0.3s all;
+}
+
+.advantages {
+    min-height: 470px;
+    background-color: #f6f6f6;
+    padding: 70px 0 78px 0;
+}
+
+.advantages_title {
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.advantages_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.advantages_item {
+    text-align: center;
+    width: 247px;
+}
+
+.advantages_item_title {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 38px;
+}
+
+.advantages_item_descr {
+    color: #0d0d0d;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 26px;
+}
+
+.advantages_item_descr a {
+    color: #ff0000;
+    text-decoration: underline;
+    transition: 0.3s all;
+}
+
+.advantages_item_descr a:hover {
+    color: #0d0d0d;
+}
