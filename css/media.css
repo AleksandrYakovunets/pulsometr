@@ -1,17 +1,22 @@
-@media(max-width: 991px){
+@media(max-width: 991px) {
+
     .header_contact button:hover,
     .promo_main .btn_call:hover {
         background-color: #c70101;
         color: #fff;
     }
-    .header_contact a:hover, .link_catalog a:hover{
-        color:#fff;
+
+    .header_contact a:hover,
+    .link_catalog a:hover {
+        color: #fff;
     }
-    .advantages_item_descr a:hover{
+
+    .advantages_item_descr a:hover {
         color: #ff0000;
     }
 
 }
+
 @media(max-width: 767px) {
     .header_descr_title {
         font-size: 10px;
@@ -115,11 +120,13 @@
     }
 
     .promo_title,
-    .advantages_title {
+    .advantages_title,
+    .consultation_title {
         font-size: 20px;
     }
 
-    .promo_subtitle {
+    .promo_subtitle,
+    .consultation_form p {
         font-size: 14px;
     }
 
@@ -127,7 +134,25 @@
         font-size: 10px;
     }
 
-    .advantages_item{
+    .advantages_item {
         width: 225px;
+    }
+
+    .consultation {
+        padding: 50px 0 40px 0;
+        min-height: 525px;
+    }
+
+    .consultation_title {
+        text-align: center;
+    }
+
+    .consultation_form {
+        align-items: center;
+    }
+
+    .consultation_form p {
+        text-align: center;
+        margin-top: 20px;
     }
 }
