@@ -239,3 +239,36 @@ header {
 .consultation_form .btn_call {
     margin-top: 20px;
 }
+
+.carousel {
+    padding: 81px 0;
+}
+.carousel_inner {
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel_inner button {
+    background: none;
+    border: none;
+}
+
+.carousel_inner .slick-prev,  .carousel_inner .slick-next{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -70px;
+    padding: 0;
+}
+
+.carousel_inner .slick-prev img,  .carousel_inner .slick-next img{
+    width: 100%;
+}
+
+.carousel_inner .slick-next {
+    right: -70px;
+    left: auto;
+}
