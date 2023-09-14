@@ -7,18 +7,7 @@ $(document).ready(function () {
     fade: true,
     cssEase: "linear",
     //adaptiveHeight: true,
-    prevArrow:
-      '<button type="button" class="slick-prev"><img src="../icons/carousel/left_arrow.png"/></button>',
-    nextArrow:
-      '<button type="button" class="slick-next"><img src="../icons/carousel/right_arrow.png"/></button>',
-    responsive: [
-      {
-        breakpoint: 991,
-        settings: {
-          dots: true,
-          arrows: false
-        },
-      },
-    ],
+    prevArrow: '<button type="button" class="slick-prev"><img src="../icons/carousel/left_arrow.png"/></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="../icons/carousel/right_arrow.png"/></button>'
   });
 });
