@@ -5,9 +5,20 @@ $(document).ready(function () {
     slidesToScroll: 1,
     speed: 1200,
     fade: true,
-    cssEase: 'linear',
+    cssEase: "linear",
     //adaptiveHeight: true,
-    prevArrow: '<button type="button" class="slick-prev"><img src="../icons/carousel/left_arrow.png"/></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="../icons/carousel/right_arrow.png"/></button>'
+    prevArrow:
+      '<button type="button" class="slick-prev"><img src="../icons/carousel/left_arrow.png"/></button>',
+    nextArrow:
+      '<button type="button" class="slick-next"><img src="../icons/carousel/right_arrow.png"/></button>',
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          dots: true,
+          arrows: false
+        },
+      },
+    ],
   });
 });
