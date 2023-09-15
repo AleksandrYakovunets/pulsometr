@@ -244,7 +244,7 @@ header {
     padding: 81px 0;
 }
 .carousel_inner {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
     position: relative;
 }
@@ -271,4 +271,8 @@ header {
 .carousel_inner .slick-next {
     right: -70px;
     left: auto;
+}
+
+.carousel_inner .slick-slide img{
+    width: 100%;
 }

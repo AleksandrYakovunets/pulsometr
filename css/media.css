@@ -1,4 +1,8 @@
 @media(max-width: 991px) {
+    .promo, .advantages, .consultation, .carousel {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
     .header_contact button:hover,
     .promo_main .btn_call:hover {
@@ -15,8 +19,28 @@
         color: #ff0000;
     }
 
-    
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
 
+    .slick-dots li {
+        list-style: none;
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border: 1px solid #d0d0d0;
+        border-radius: 100%;
+        margin: 0 5px;
+    }
+
+    .slick-dots .slick-active{
+        background-color: #4b4b4b;
+        width: 13px;
+        height: 13px;
+    }
 }
 
 @media(max-width: 767px) {
