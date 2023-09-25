@@ -18,4 +18,27 @@ $(document).ready(function () {
       }
     }]
   });
+
+  $('ul.catalog_tabs').on('click', 'li:not(.catalog_active)', function() {
+    
+    $(this)
+      .addClass('catalog_active').siblings().removeClass('catalog_active')
+      .closest('div.container').find('div.catalog_content').removeClass('catalog_content_active').eq($(this).index()).addClass('catalog_content_active');
+  });
+
+  $('.catalog_item_link').each(function(i){
+    $(this).on('click', function(e){
+      e.preventDefault();
+      $('.catalog_item_detail').eq(i).toggleClass('catalog_item_detail_active');
+      if($('.catalog_item_link').eq(i).html() == 'подробнее'){
+        $('.catalog_item_link').eq(i).html('назад');
+      } 
+      else if($('.catalog_item_link').eq(i).html() == 'назад') {
+        $('.catalog_item_link').eq(i).html('подробнее');
+      }
+    })
+  });
+
 });
+
+

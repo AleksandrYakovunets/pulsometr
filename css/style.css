@@ -290,6 +290,7 @@ header {
     margin-top: 70px;
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
@@ -329,6 +330,11 @@ header {
 
 .catalog_content {
     margin-top: 60px;
+    display: none;
+    transition: 0.3s all;
+}
+
+.catalog_content_active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -342,10 +348,53 @@ header {
     padding: 20px 20px 26px 20px;
     transition: 0.3s all;
     margin-top: 20px;
+    position: relative;
 }
 
 .catalog_item:hover {
     box-shadow: 3px 3px 20px #d0d0d0;
+}
+
+.catalog_item_detail {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    width: 237px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    transition: 0.3s all;
+    opacity: 0;
+    height: 0;
+}
+
+.catalog_item_detail_active {
+    opacity: 1;
+    min-height: 70%;
+}
+
+.catalog_item_detail ul {
+    padding-left: 0;
+}
+
+.catalog_item_detail li {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    list-style: none;
+    margin-top: 20px;
+    position: relative;
+}
+
+.catalog_item_detail li::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 10px;
+    left: -14px;
+    background: url("../icons/screen_catalog/square.png") center center/cover no-repeat;
 }
 
 .catalog_item_img {
@@ -379,6 +428,14 @@ header {
     text-decoration: underline;
     display: block;
     margin-top: 17px;
+    text-transform: uppercase;
+    transition: 0.3s all;
+}
+
+.catalog_item_link:hover {
+    text-decoration: none;
+    font-size: 1.01em;
+    color: #c70101;
 }
 
 .catalog_item hr {
@@ -417,6 +474,11 @@ header {
     text-align: center;
     text-transform: uppercase;
     border: none;
+    transition: 0.3s all;
+}
+
+.catalog_item_btn:hover {
+    box-shadow: 3px 3px 10px #c70101;
 }
 
 .catalog_item_footer {
