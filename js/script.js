@@ -33,9 +33,10 @@ $(document).ready(function () {
       if($('.catalog_item_link').eq(i).html() == 'подробнее'){
         $('.catalog_item_link').eq(i).html('назад');
       } 
-      else if($('.catalog_item_link').eq(i).html() == 'назад') {
+      else {
         $('.catalog_item_link').eq(i).html('подробнее');
       }
+      alert(i);
     })
   });
 
