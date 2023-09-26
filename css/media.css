@@ -109,7 +109,7 @@
         min-height: 410px;
     }
 
-    .advantages_title {
+    .advantages_title, .reviews_title {
         font-size: 24px;
     }
 
@@ -142,6 +142,23 @@
     .catalog_item_link:hover {
         text-decoration: underline;
         font-size: 1em;
+    }
+
+    .reviews_item {
+        flex-direction: column;
+    }
+
+    .reviews_img {
+        margin-right: 0;
+    }
+
+    .reviews_descr {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .reviews_descr_text  {
+        font-size: 14px;
     }
 
 }

@@ -157,7 +157,8 @@ header {
 }
 
 .advantages_title,
-.catalog_title {
+.catalog_title,
+.reviews_title {
     color: #0d0d0d;
     font-size: 30px;
     font-weight: 700;
@@ -486,4 +487,57 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 21px;
+}
+
+.reviews {
+    margin: 3px 0 71px 0;
+}
+
+.reviews_items {
+    margin-top: 70px;
+}
+
+.reviews_items hr {
+    width: 940px;
+    height: 1px;
+    background-color: #d0d0d0;
+    margin: 50px 0;
+}
+
+.reviews_item {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: left;
+}
+
+.reviews_img {
+    margin-right: 60px;
+    min-height: 169px;
+    min-width: 169px;
+}
+
+.reviews_img img {
+    width: 100%;
+}
+
+.reviews_descr_title {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.reviews_descr_subtitle {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.reviews_descr_text {
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 19px;
+    max-width: 660px;
 }

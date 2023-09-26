@@ -36,7 +36,6 @@ $(document).ready(function () {
       else {
         $('.catalog_item_link').eq(i).html('подробнее');
       }
-      alert(i);
     })
   });
 
