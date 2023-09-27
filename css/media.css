@@ -228,4 +228,24 @@
         text-align: center;
         margin-top: 20px;
     }
+
+    .consultation_form input, .consultation_form .btn_call {
+        width: 250px;
+
+    }
+
+    .modal {
+        width: 260px;
+        padding: 5px;
+        min-height: 75%;
+    }
+
+    .modal .consultation_form {
+        margin-top: 0;
+    }
+
+    .modal_close {
+        top: -42px;
+        right: 0;
+    }
 }
