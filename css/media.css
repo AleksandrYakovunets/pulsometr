@@ -45,6 +45,10 @@
         width: 13px;
         height: 13px;
     }
+
+    .footer_info {
+        padding: 10px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -159,6 +163,14 @@
 
     .reviews_descr_text  {
         font-size: 14px;
+    }
+
+    .footer_addr, .footer_phone {
+        margin-bottom: 20px;
+    }
+
+    .footer_info {
+        height: 200px;
     }
 
 }
