@@ -231,13 +231,16 @@
 
     .consultation_form input, .consultation_form .btn_call {
         width: 250px;
+    }
 
+    .consultation_form input {
+        margin-top: 5px;
     }
 
     .modal {
         width: 260px;
         padding: 5px;
-        min-height: 75%;
+        min-height: 300px;
     }
 
     .modal .consultation_form {
@@ -245,7 +248,7 @@
     }
 
     .modal_close {
-        top: -42px;
+        top: 0;
         right: 0;
     }
 }
