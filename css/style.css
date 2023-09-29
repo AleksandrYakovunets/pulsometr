@@ -662,10 +662,62 @@ header {
     margin-top: 25px;
 }
 
-#consultation, #order, #thanks, .overlay {
+#consultation,
+#order,
+#thanks,
+.overlay {
     display: none;
 }
 
 #thanks {
     min-height: 140px;
+}
+
+.modal .error,
+#consultation_form .error {
+    border: 1px solid red;
+}
+
+.modal label.error {
+    border: none;
+    text-align: center;
+}
+
+#consultation_form label.error {
+    color: #fff;
+    border: none;
+}
+
+.pageup {
+    display: none;
+}
+
+.pageup img {
+    width: 30px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.advantages_item img {
+    animation-name: heart;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+} 
+
+
+@keyframes heart{
+    from {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0.8);
+    }
 }
